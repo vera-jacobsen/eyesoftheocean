@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -104,7 +104,7 @@
       min-height: calc(100vh - 82px);
     }
 
-    .hero-left { display: flex; flex-direction: column; gap: 20px; animation: fadeUp 0.8s ease both; text-align: right; align-items: flex-end; }
+    .hero-left { display: flex; flex-direction: column; gap: 20px; animation: fadeUp 0.8s ease both; text-align: right; align-items: flex-end; padding-right: 40px; }
 
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
@@ -391,13 +391,13 @@
 <!-- MENU -->
 <div class="menu-overlay" id="menu">
   <div class="menu-header">
-    <span>Menü</span>
+    <span>Menu</span>
     <button class="menu-close" onclick="document.getElementById('menu').classList.remove('open')">✕</button>
   </div>
   <a href="#" onclick="document.getElementById('menu').classList.remove('open')">Home</a>
   <a href="#portfolio" onclick="document.getElementById('menu').classList.remove('open')">Portfolio</a>
   <a href="#services" onclick="document.getElementById('menu').classList.remove('open')">Services</a>
-  <a href="#contact" onclick="document.getElementById('menu').classList.remove('open')">Kontakt</a>
+  <a href="#contact" onclick="document.getElementById('menu').classList.remove('open')">Contact</a>
 </div>
 
 <!-- HERO -->
@@ -429,17 +429,17 @@
     </div>
   </div>
   <div class="hero-left">
-    <h1>Momente, die bleiben</h1>
-    <p>Professionelle Fotografie – festgehalten mit Leidenschaft und einem Blick fürs Besondere.</p>
-    <a class="btn" href="#portfolio">Portfolio ansehen</a>
+    <h1>Moments that last forever</h1>
+    <p>Professional photography – captured with passion and an eye for the extraordinary.</p>
+    <a class="btn" href="#portfolio">View Portfolio</a>
   </div>
 </section>
 
 <!-- SELECTED WORKS -->
 <section id="portfolio">
   <div class="section-header">
-    <h2>Ausgewählte Werke</h2>
-    <p>Prints und Lizenzen für dein Projekt verfügbar.</p>
+    <h2>Selected Works</h2>
+    <p>Prints and licenses available for your project.</p>
   </div>
   <div class="works-grid">
     <div class="work-card">
@@ -488,15 +488,15 @@
 <!-- SERVICES -->
 <section id="services">
   <div class="section-header">
-    <h2>Spezialisierte Services</h2>
-    <p>Professionelle Fotografie für verschiedene Bereiche.</p>
+    <h2>Specialized Services</h2>
+    <p>Professional photography for various fields.</p>
   </div>
 
   <div class="service-item">
     <div class="service-text">
       <div class="service-num">1</div>
-      <h3>Sport & Action</h3>
-      <p>Professionelle Begleitung bei Sportevents und Action-Aufnahmen – dynamisch und authentisch.</p>
+      <h3>Sports & Action</h3>
+      <p>Professional coverage at sporting events and action shoots – dynamic and authentic.</p>
     </div>
     <div class="service-img"><div class="si1"></div></div>
   </div>
@@ -504,8 +504,8 @@
   <div class="service-item">
     <div class="service-text">
       <div class="service-num">2</div>
-      <h3>Natur & Landschaft</h3>
-      <p>Dokumentation seltener Natur- und Landschaftsmomente mit einem einzigartigen Blickwinkel.</p>
+      <h3>Nature & Landscape</h3>
+      <p>Documenting rare nature and landscape moments with a unique perspective.</p>
     </div>
     <div class="service-img"><div class="si2"></div></div>
   </div>
@@ -514,47 +514,47 @@
 <!-- PACKAGES -->
 <section id="packages">
   <div class="section-header">
-    <h2>Fotografie-Pakete</h2>
-    <p>Das passende Angebot für dein Projekt.</p>
+    <h2>Photography Packages</h2>
+    <p>The right package for your project.</p>
   </div>
 
   <div class="packages-list">
     <div class="package-card">
       <div>
-        <div class="pkg-label">Persönlich</div>
-        <div class="pkg-price">500 € <span>/ Tag</span></div>
-        <div class="pkg-desc">Ideal für Lifestyle-Shootings.</div>
-        <a class="pkg-btn" href="#contact">Session buchen</a>
+        <div class="pkg-label">Personal</div>
+        <div class="pkg-price">500 € <span>/ day</span></div>
+        <div class="pkg-desc">Ideal for lifestyle shoots.</div>
+        <a class="pkg-btn" href="#contact">Book Session</a>
       </div>
       <div class="pkg-includes">
-        <h4>Inbegriffen:</h4>
+        <h4>Included:</h4>
         <div class="pkg-feature">
           <div class="check"><svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
-          Ganztägiges Shooting
+          Full day shoot
         </div>
         <div class="pkg-feature">
           <div class="check"><svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
-          50 bearbeitete Bilder
+          50 retouched images
         </div>
       </div>
     </div>
 
     <div class="package-card">
       <div>
-        <div class="pkg-label">Kommerziell</div>
-        <div class="pkg-price">1.200 € <span>/ Tag</span></div>
-        <div class="pkg-desc">Für Marken und Unternehmen.</div>
-        <a class="pkg-btn" href="#contact">Anfrage senden</a>
+        <div class="pkg-label">Commercial</div>
+        <div class="pkg-price">1.200 € <span>/ day</span></div>
+        <div class="pkg-desc">For brands and companies.</div>
+        <a class="pkg-btn" href="#contact">Get in Touch</a>
       </div>
       <div class="pkg-includes">
-        <h4>Inbegriffen:</h4>
+        <h4>Included:</h4>
         <div class="pkg-feature">
           <div class="check"><svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
-          Ganztägiges Shooting
+          Full day shoot
         </div>
         <div class="pkg-feature">
           <div class="check"><svg viewBox="0 0 12 12" fill="none" stroke="white" stroke-width="2"><polyline points="2,6 5,9 10,3"/></svg></div>
-          Alle Rohdaten inklusive
+          All raw files included
         </div>
       </div>
     </div>
@@ -564,8 +564,8 @@
 <!-- TESTIMONIALS -->
 <section id="testimonials">
   <div class="section-header">
-    <h2>Stimmen meiner Kunden</h2>
-    <p>Kooperationen und Partnerschaften.</p>
+    <h2>Words from my Clients</h2>
+    <p>Collaborations and partnerships.</p>
   </div>
 
   <div class="testimonials-track-wrap">
@@ -620,14 +620,14 @@
 <!-- CONTACT -->
 <section id="contact">
   <div class="contact-box">
-    <div class="contact-label">Lass uns reden</div>
-    <h2>Bereit für dein nächstes Projekt?</h2>
-    <p>Ich freue mich auf deine Anfrage.</p>
+    <div class="contact-label">Let's Talk</div>
+    <h2>Ready for your next Project?</h2>
+    <p>I'd love to hear from you.</p>
     <div class="email-form">
-      <input type="email" placeholder="Deine E-Mail-Adresse"/>
-      <button class="btn" style="margin:0;">Senden</button>
+      <input type="email" placeholder="Your email address"/>
+      <button class="btn" style="margin:0;">Send</button>
     </div>
-    <div class="contact-note">Mit dem Absenden stimmst du unseren Nutzungsbedingungen zu.</div>
+    <div class="contact-note">By submitting you agree to our Terms & Conditions.</div>
   </div>
 </section>
 
@@ -635,8 +635,8 @@
 <footer>
   <div class="footer-brand">Mein Portfolio</div>
   <div class="footer-links">
-    <span>Datenschutz</span>
-    <span>Impressum</span>
+    <span>Privacy Policy</span>
+    <span>Imprint</span>
   </div>
 </footer>
 
